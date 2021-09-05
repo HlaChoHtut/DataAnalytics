@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+:root {
+    --main-bg-color: #191919;
+    --text-color: #2fcfbf;
+    --second-color: #008ee5;
+}
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;;
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.container {
+    margin: 3em 5em 0;
+    position: relative;
+}
+
+.line {
+    border-left: 3px solid #2fcfbf;
+    margin-left: 2.3em;
+    margin-top: 0;
+}
+
+.logo {
+    color: var(--text-color);
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.home {
+    height: 100vh;
+}
+
+.home, 
+.portfolio, 
+.about,
+.tech,
+.contact {
+    margin-left: 3em;
+}
+
+.name {
+    color: var(--second-color);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#portfolio, 
+#about, 
+#tech, 
+#contact {
+    border: 3px solid var(--second-color);
+    border-radius: 5px;
+    padding: .5em 1em;
+    display: inline-block;
+    margin-top: 2em;
+}
+
+#portfolio {
+    margin-left: 8em;
+}
+
+#about {
+    margin-left: 30em;
+}
+
+#tech {
+    margin-left: 20em;
+}
+
+#contact {
+    margin-left: 5em;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+
+.project1, .project2 {
+    width: 500px;
+    border: 1px solid red;
+}
+
